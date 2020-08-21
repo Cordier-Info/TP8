@@ -2,7 +2,7 @@
 Prouvons que $p\times a^n$ est un invariant de boucle.
 Pour cela, on pose $a_k$, $n_k$ et $p_k$, les valeurs de $a$, $n$ et $p$ après le k<sup>ème</sup> passage dans la boucle et on suppose que $p_k\times a_k^{n_k} = cste$.  
 
- - Initiation : $p_0\times a_0^{n_0} = \cdots$ (en utilisant les valeurs initiales)  
+ - Initiation : p<sub>0</sub>×a<sub>0</sub><sup>n<sub>0</sub></sup> = \cdots$ (en utilisant les valeurs initiales)  
  - Conservation : supposons que $p_k\times a_k^{n_k} = a^n$. À la boucle suivante, deux cas se présentent :
    - si $n_k$ est pair, alors $a_{k+1} = \cdots$, $n_{k+1} = \cdots$ et $p_{k+1}=\cdots$.    
      Donc $p_{k+1}\times a_{k+1}^{n_{k+1}} = \cdots$.  
