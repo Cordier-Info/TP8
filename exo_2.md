@@ -1,5 +1,5 @@
-complexité de `truc` :
+- complexité de `truc` :
 
 
 
-complexité de `machin :
+- complexité de `machin` :
