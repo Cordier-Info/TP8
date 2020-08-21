@@ -7,9 +7,11 @@ Pour cela, on pose a<sub>k</sub>, n<sub>k</sub> et p<sub>k</sub>, les valeurs de
   - si n<sub>k</sub> est pair, alors a<sub>k+1</sub> = ..., n<sub>k+1</sub> = ... et p<sub>k+1</sub> = ....    
     Donc p<sub>k+1</sub>×a<sub>k+1</sub><sup>n<sub>k+1</sub></sup> = ... .  
   - si n<sub>k</sub> est impair, alors a<sub>k+1</sub> = ..., p<sub>k+1</sub> = ... et n<sub>k+1</sub> = ... .  
-    Donc p<sub>k+1</sub>×a<sub>k+1</sub><sup>n<sub>k+1</sub></sup> = ...$.  
+    Donc p<sub>k+1</sub>×a<sub>k+1</sub><sup>n<sub>k+1</sub></sup> = ....  
+  
   p<sub>k</sub>×a<sub>k</sub><sup>n<sub>k</sub></sup> est bien un invariant quelque soit k.
+
 - Terminaison : la boucle s'arrête quand n = 0, ou n<sub>f</sub> = 0 en appelant f la dernière boucle. Et on a nécessairement n<sub>f-1</sub> = ... en début de boucle.<br>
-En sortie de denière boucle, on a p<sub>f</sub> = p<sub>f-1</sub>\times a<sub>f-1</sub>. Et comme n<sub>f-1</sub> = ..., p<sub>f</sub> = ... .  
+En sortie de denière boucle, on a p<sub>f</sub> = p<sub>f-1</sub>×a<sub>f-1</sub>. Et comme n<sub>f-1</sub> = ..., p<sub>f</sub> = ... .  
 
 La fonction retourne donc bien a<sup>n</sup>.
