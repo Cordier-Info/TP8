@@ -16,3 +16,7 @@ Et on a nécessairement n<sub>f-1</sub> = ... en début de boucle.<br>
 En sortie de denière boucle, on a finalement p<sub>f</sub> = p<sub>f-1</sub> × a<sub>f-1</sub> = p<sub>f-1</sub> × a<sub>f-1</sub><sup>n<sub>f-1</sub></sup> = ... (par conservation de l'invariant). 
 
 La fonction retourne donc bien a<sup>n</sup>.
+
+2. 
+
+3.
