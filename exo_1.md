@@ -1,5 +1,5 @@
 1. 
-Prouvons que p×a<sup>n</sub> est un invariant de boucle.
+Prouvons que p×a<sup>n</sup> est un invariant de boucle.
  Pour cela, on pose a<sub>k</sub>, n<sub>k</sub> et p<sub>k</sub>, les valeurs de a, n et p après le k<sup>ème</sup> passage dans la boucle et on suppose que p<sub>k</sub>×a<sub>k</sub><sup>n<sub>k</sub></sup> = cste.  
 
  - Initiation : p<sub>0</sub>×a<sub>0</sub><sup>n<sub>0</sub></sup> = ... (en utilisant les valeurs initiales)  
