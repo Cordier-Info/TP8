@@ -1,13 +1,14 @@
 1. 
-Prouvons que $p\times a^n$ est un invariant de boucle.
-Pour cela, on pose $a_k$, $n_k$ et $p_k$, les valeurs de $a$, $n$ et $p$ après le k<sup>ème</sup> passage dans la boucle et on suppose que $p_k\times a_k^{n_k} = cste$.  
+Prouvons que p×a<sup>n<sub> est un invariant de boucle.
+ Pour cela, on pose a<sub>k</sub>, n<sub>k</sub> et p<sub>k</sub>, les valeurs de a, n et p après le k<sup>ème</sup> passage dans la boucle et on suppose que p<sub>k</sub>×a<sub>k</sub><sup>n<sub>k</sub></sup> = cste.  
 
  - Initiation : p<sub>0</sub>×a<sub>0</sub><sup>n<sub>0</sub></sup> = \cdots$ (en utilisant les valeurs initiales)  
- - Conservation : supposons que $p_k\times a_k^{n_k} = a^n$. À la boucle suivante, deux cas se présentent :
-   - si $n_k$ est pair, alors $a_{k+1} = \cdots$, $n_{k+1} = \cdots$ et $p_{k+1}=\cdots$.    
-     Donc $p_{k+1}\times a_{k+1}^{n_{k+1}} = \cdots$.  
-     - si $n_k$ est impair, alors $a_{k+1}=\cdots$, $p_{k+1}=\cdots$ et  $n_{k+1}=\cdots$.  
-       Donc $p_{k+1}\times a_{k+1}^{n_{k+1}} = \cdots$.  
-       $p_k\times a_k^{n_k}$ est bien un invariant quelque soit $k$.
-- Terminaison : la boucle s'arrête quand $n=0$, ou $n_f = 0$ en appelant $f$ la dernière boucle. Et on a nécessairement $n_{f-1} = \cdots$ en début de boucle.<br>En sortie de denière boucle, on a  $p_f = p_{f-1}\times a_{f-1}$. Et comme $n_{f-1}=\cdots$, $p_f = \cdots$.  
-  La fonction retourne donc bien $a^n$.
+ - Conservation : supposons que p<sub>k</sub>×a<sub>k</sub><sup>n<sub>k</sub></sup> = a<sub>n</sub>. À la boucle suivante, deux cas se présentent :
+   - si n<sub>k</sub> est pair, alors a<sub>k+1</sub> = ..., n<sub>k+1</sub> = ... et p<sub>k+1</sub> = ....    
+     Donc p<sub>k+1</sub>×a<sub>k+1</sub><sup>n<sub>k+1</sub></sup> = ... .  
+     - si n<sub>k</sub> est impair, alors a<sub>k+1</sub> = ..., p<sub>k+1</sub> = ... et n<sub>k+1</sub> = ... .  
+       Donc p<sub>k+1</sub>×a<sub>k+1</sub><sup>n<sub>k+1</sub></sup> = \cdots$.  
+       p<sub>k</sub>×a<sub>k</sub><sup>n<sub>k</sub></sup> est bien un invariant quelque soit k.
+- Terminaison : la boucle s'arrête quand n=0, ou $n<sub>f</sub> = 0 en appelant f la dernière boucle. Et on a nécessairement n<sub>f-1</sub> = ... en début de boucle.<br>
+En sortie de denière boucle, on a p<sub>f</sub> = p<sub>f-1</sub>\times a<sub>f-1</sub>. Et comme n<sub>f-1</sub> = ..., p<sub>f</sub> = ... .  
+  La fonction retourne donc bien $a<sup>n</sup>$.
