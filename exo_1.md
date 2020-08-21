@@ -11,7 +11,8 @@ Pour cela, on pose a<sub>k</sub>, n<sub>k</sub> et p<sub>k</sub>, les valeurs de
   
   p<sub>k</sub> × a<sub>k</sub><sup>n<sub>k</sub></sup> est bien un invariant quelque soit k.
 
-- Terminaison : la boucle s'arrête quand n = 0, ou n<sub>f</sub> = 0 en appelant f la dernière boucle. Et on a nécessairement n<sub>f-1</sub> = ... en début de boucle.<br>
-En sortie de denière boucle, on a p<sub>f</sub> = p<sub>f-1</sub> × a<sub>f-1</sub> = p<sub>f-1</sub> × a<sub>f-1</sub><sup>n<sub>f-1</sub></sup> = ... (par conservation de l'invariant). 
+- Terminaison : la boucle s'arrête quand n = 0, ou n<sub>f</sub> = 0 en appelant f la dernière boucle.<br> 
+Et on a nécessairement n<sub>f-1</sub> = ... en début de boucle.<br>
+En sortie de denière boucle, on a finalement p<sub>f</sub> = p<sub>f-1</sub> × a<sub>f-1</sub> = p<sub>f-1</sub> × a<sub>f-1</sub><sup>n<sub>f-1</sub></sup> = ... (par conservation de l'invariant). 
 
 La fonction retourne donc bien a<sup>n</sup>.
